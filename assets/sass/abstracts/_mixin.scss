@@ -1,0 +1,10 @@
+@mixin resaltador {
+    color: rgb(30, 255, 0);
+    font-size: $cuarenta_px;
+    background-color: $blanco;
+}
+
+@mixin titulo3 ($tamano, $colorTexto) {
+    color: $colorTexto;
+    font-size: $tamano;
+}

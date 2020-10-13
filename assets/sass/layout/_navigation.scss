@@ -1,0 +1,11 @@
+.nav {
+    display: block;
+    background-color: black;
+    padding: 30px;
+    .nav__div {
+        position: relative;
+        .nav__ul {
+            margin-left: auto;
+        }
+    }
+}

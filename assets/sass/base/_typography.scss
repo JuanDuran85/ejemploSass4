@@ -1,0 +1,36 @@
+.header__h2 {
+    padding: $cien_px;
+    h2 {
+        color: $blanco;
+        font-size: $cuarenta_px;
+        text-align: $centrado;
+        vertical-align: middle;
+
+        &:hover{
+            @include resaltador;
+        }
+    }
+}
+
+.nav__item {
+    color: $blanco;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+
+    &:hover{
+        @include resaltador;
+    }
+}
+
+.footer__p {
+    color: $blanco;
+
+    &:hover{
+        @include resaltador;
+    }
+}
+
+h3 {
+    @include titulo3(24px,blue);
+}
